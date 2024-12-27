@@ -60,4 +60,7 @@
 #define UF2_BOARD_ID        "nRF52840-pca10056-v1"
 #define UF2_INDEX_URL       "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52840-DK"
 
+// Use 3.3V rather than 1.8V
+#define UICR_REGOUT0_VALUE UICR_REGOUT0_VOUT_3V3
+
 #endif // PCA10056_H
