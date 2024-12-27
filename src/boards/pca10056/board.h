@@ -63,4 +63,7 @@
 // Use 3.3V rather than 1.8V
 #define UICR_REGOUT0_VALUE UICR_REGOUT0_VOUT_3V3
 
+// Change the UF2 volume name.
+#define UF2_VOLUME_LABEL "LOTUSBLE   "
+
 #endif // PCA10056_H
